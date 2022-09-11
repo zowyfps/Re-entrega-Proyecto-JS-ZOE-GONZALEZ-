@@ -373,8 +373,8 @@ p {
   z-index: 0;
   background: #fff;
   overflow: hidden;
-  border: 2px solid #d90429;
-  color: #d90429;
+  border: 2px solid #ececec;
+  color: #000000;
 }
 .boton-agregar:hover {
   color: #fff;
@@ -391,11 +391,15 @@ p {
   top: 0;
   width: 0;
   height: 100%;
-  background: #d90429;
+  background: #141112;
 }
 .boton-agregar:focus {
     outline: none;
 }
+
+
+
+
 
 .modal-contenedor {
     position: fixed;
