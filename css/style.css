@@ -437,6 +437,11 @@ p {
     color: rgb(0, 0, 0);
     padding-bottom: 5px;
 }
+
+.modal-carrito p{
+    color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
 .modal-carrito #carritoCerrar {
     position: absolute;
     top: 15px;
