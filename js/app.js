@@ -104,13 +104,13 @@ const vaciarCarrito = () => {
 btnVaciar.addEventListener('click', () => {
     Swal.fire({
         title: 'Está seguro?',
-        text: "Está a punto de cancelar el alquiler de los equipos",
+        text: "Se cancelaran todas tus compras",
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Sí! , me arrepenti',
-        cancelButtonText: 'No!, me confundi'
+        confirmButtonText: 'Estoy Seguro',
+        cancelButtonText: 'Cancelar'
       }).then( (result) => {
             if (result.isConfirmed) {
                 vaciarCarrito()
